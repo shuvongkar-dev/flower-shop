@@ -162,3 +162,35 @@ header {
     font-weight: 600;
     text-decoration: none;
 }
+
+/* Hot-Deal section style */
+
+.Hot-Deal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 186px;
+    height: 620px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
+}
+
+.Hot-Deal-content{
+    text-align: center;
+}
+
+.Hot-Deal-title{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.Hot-Deal-title >span{
+    color: #E55473;
+}
+
+.Hot-Deal-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    margin-bottom: 32px;
+}
