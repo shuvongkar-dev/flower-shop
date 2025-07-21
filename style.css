@@ -194,3 +194,60 @@ header {
     font-size: 18px;
     margin-bottom: 32px;
 }
+
+/* insta-section style */
+
+
+.insta-section{
+    text-align: center;
+    margin-bottom: 128px;
+}
+
+.insta-title{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.insta-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.insta-flowers{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin-bottom: 128px;
+}
+
+div.Latest-Deals-container{
+    background-image: url(./Asset/Rectangle\ 9.png);
+    height: 449px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Latest-Deals-title{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+
+.Latest-Deals-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    margin-bottom: 48px;
+    line-height: 30px;
+}
+
+.Latest-Deals-email >input{
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    padding: 22px;
+}
