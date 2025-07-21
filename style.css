@@ -250,4 +250,41 @@ div.Latest-Deals-container{
     border: none;
     border-radius: 8px;
     padding: 22px;
+    margin-right: 16px;
+}
+
+/* footer style */
+
+footer{
+    height: 449px;
+    background-color: #111010;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.footer-content{
+    text-align: center;
+}
+
+.footer-title{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.footer-title >span{
+    color: #E55473;
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.footer-copy-right{
+    color: rgba(255, 255, 255, 0.4);
 }
